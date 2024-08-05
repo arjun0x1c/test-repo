@@ -1,0 +1,18 @@
+.badge1 {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 3rem;
+}
+.rotate {
+  animation: rotateY 15s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotateY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
